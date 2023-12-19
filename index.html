@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janji Kembali</title>
+
+    <!-- Link CSS default -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Link Animasi halaman -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- Link Animasi saat di scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+    <!-- Feather Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+<body>
+
+    <!-- Navbar Selesai -->
+
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <img src="./img/logo.jpg" alt="Logo">
+            <h5>Janji Kembali</h5>
+        </div>
+
+        <div class="menu-icon" id="menu-icon">
+            <i data-feather="menu"></i>
+        </div>
+
+        <div class="menu-icon hidden" id="menu-iconX">
+            <i data-feather="x"></i>
+        </div>
+        <ul class="nav-item hidden" id="menu-list">
+            <hr />
+            <li class="list-item">
+                <a href="#home">Home</a>
+            </li>
+            <li class="list-item">
+                <a href="#blog">About</a>
+            </li>
+            <li class="list-item">
+                <a href="#menu">Menu</a>
+            </li>
+            <li class="list-item">
+                <a href="#galery">Galery</a>
+            </li>
+            <li class="list-item">
+                <a href="#contact">Contact</a>
+            </li>
+            <li class="dropdown list-item">
+            <a href="#" class="dropbtn" id="sosmed">Social Media >> </a>
+                <div class="dropdown-content" id="drop-down-sosmed">
+                    <br />
+                    <a href="#"><i class="fa fa-facebook"></i> Facebook</a>
+                    <br />
+                    <a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+                    <br />
+                    <a href="#"><i class="fa fa-instagram"></i> Instagram</a>
+                    <br />
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Navbar Finish -->
+
+    <!-- Content Start -->
+
+    <section class="home line animate__animated animate__fadeInDown" id="home">
+        <div class="img-content">
+            <img src="img/header.jpg" alt="" width="100%">
+        </div>
+        <div class="content">
+            <h3>
+                <span>Sekarang anda </span>tidak perlu repot mencari cafe
+            </h3>
+            <h1>Cukup dengan Uang<br /><span>5k saja</span></h1>
+            <button class="btn">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/menu/"
+                  >Beli Sekarang
+                </a>
+            </button>
+        </div>
+    </section>
+
+    <!-- Content Finish -->
+
+    <!-- About Start -->
+
+    <section class="blog line animate__animated animate__fadeInUp" id="blog">
+        <div class="blog-content">
+            <div class="blog-header" data-aos="fade-down">
+                <p>
+                    Selamat datang di Cafe Janji Kembali, tempat menikmati pengalaman yang tak terlupakan. Kami sajikan menu yang akan membawa Anda pada perjalanan cita rasa yang istimewa. Selamat menikmati kehangatan dan kenyamanan di Cafe Janji Kembali.
+                </p>
+            </div>
+            <div class="blog-body">
+                <div class="card-title" data-aos="fade-down">
+                    <h1><i>Fasilitas <span>Unggulan</span></i></h1>
+                    <h6>Kami melayani anda dengan penuh semangat</h6>
+                </div>
+                <div class="blog-card">
+                    <div class="card-item" data-aos="zoom-in-down" data-aos-duration="1500">
+                        <img src="./img/layanan1.jpg" alt="layanan1">
+                        <footer>
+                            Barista yang asik
+                        </footer>
+                    </div>
+                    <div class="card-item" data-aos="zoom-in-down" data-aos-duration="1500">
+                        <img src="./img/layanan2.jpg" alt="layanan2">
+                        <footer>
+                            Tempat yang asri dan sejuk
+                        </footer>
+                    </div>
+                    <div class="card-item" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <img src="./img/layanan4.jpg" alt="layanan3">
+                        <footer>
+                            Tempat yang higienis dan bersih
+                        </footer>
+                    </div>
+                    <div class="card-item" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <img src="./img/layanan3.jpg" alt="layanan4">
+                        <footer>
+                            Pelayanan yang ramah
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Finish -->
+
+    <!-- Menu Start -->
+
+    <section class="menu line animate__animated animate__fadeInUp" id="menu">
+        <div class="menu-content">
+            <div class="card-title" data-aos="fade-down">
+                <h1><i>Best <span>Seller</span></i></h1>
+                <h6>Kami memberikan dan membuatnya sesuai keinginan Anda</h6>
+            </div>
+            <div class="menu-card" >
+                <div class="card-item" data-aos="fade-down" data-aos-duration="1000">
+                    <img src="./img/menu1.jpg" alt="menu1">
+                    <footer>
+                        <h1>Kopi Macchiato.</h1>
+                        <p>Macchiato adalah espresso yang diberi buih susu sebanyak satu atau dua sendok makan saja.</p>
+                        <h4>$1.0</h4>
+                    </footer>
+                </div>
+                <div class="card-item" data-aos="fade-down" data-aos-duration="1000">
+                    <img src="./img/menu2.jpg" alt="menu1">
+                    <footer>
+                        <h1>Kopi Hitam.</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, excepturi.</p>
+                        <h4>$0.6</h4>
+                    </footer>
+                </div>
+                <div class="card-item" data-aos="fade-down" data-aos-duration="1000">
+                    <img src="./img/menu1.jpg" alt="menu1">
+                    <footer>
+                        <h1>Kopi Macchiato.</h1>
+                        <p>Macchiato adalah espresso yang diberi buih susu sebanyak satu atau dua sendok makan saja.</p>
+                        <h4>$1.0</h4>
+                    </footer>
+                </div>
+                <div class="card-item" data-aos="fade-down" data-aos-duration="1000">
+                    <img src="./img/buger.jpg" alt="menu1">
+                    <footer>
+                        <h1>Burger.</h1>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h4>$1.0</h4>
+                    </footer>
+                </div>
+                <div class="card-item" data-aos="fade-down" data-aos-duration="1000">
+                    <img src="./img/cake.jpg" alt="menu1">
+                    <footer>
+                        <h1>Kue.</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, excepturi.</p>
+                        <h4>$0.6</h4>
+                    </footer>
+                </div>
+                <div class="card-item" data-aos="fade-down" data-aos-duration="1000">
+                    <img src="./img/buger.jpg" alt="menu1">
+                    <footer>
+                        <h1>Burger.</h1>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h4>$1.0</h4>
+                    </footer>
+                </div>
+            </div>
+            <div class="btn-link" data-aos="fade-down" >
+                <a href="/menu/">
+                    <button>Lihat menu lainnya</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Finish -->
+
+    <!-- Galery Start -->
+
+    <section class="galery animate__animated animate__fadeInUp" id="galery">
+        <div class="galery-content">
+            <div class="galery-header" data-aos="fade-down">
+                <h1><i>Galeri <span>Kami</span></i></h1>
+                <h6>Kami selalu siap untuk anda</h6>
+            </div>
+            <div class="container">
+                <div class="galery-card">
+                    <div class="card-item" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <img src="./img/layanan1.jpg">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>
+                            Cocok untuk rapat.
+                        </p>
+                    </div>
+                    <div class="card-item" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <img src="./img/layanan2.jpg">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>
+                            Cocok untuk mengerjakan tugas - tugas.
+                        </p>
+                    </div>
+                    <div class="card-item" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <img src="./img/layanan3.jpg">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>
+                            Cocok untuk ketemuan.
+                        </p>
+                    </div>
+                    <div class="card-item" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <img src="./img/layanan4.jpg">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>
+                            Cocok untuk Kita semua.
+                        </p>
+                    </div>
+                    <div class="card-item" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <img src="./img/layanan1.jpg">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>
+                            Cocok untuk rapat.
+                        </p>
+                    </div>
+                    <div class="card-item" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <img src="./img/layanan2.jpg">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>
+                            Cocok untuk mengerjakan tugas - tugas.
+                        </p>
+                    </div>
+                    <div class="card-item" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <img src="./img/layanan3.jpg">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>
+                            Cocok untuk ketemuan.
+                        </p>
+                    </div>
+                    <div class="card-item" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <img src="./img/layanan4.jpg">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>
+                            Cocok untuk Kita semua.
+                        </p>
+                    </div>
+                    <div class="card-item" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <img src="./img/layanan1.jpg">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>
+                            Cocok untuk rapat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galery Finish -->
+    
+    <!-- Contact Start -->
+
+    <section class="contact line animate__animated animate__fadeInUp" id="contact">
+        <div class="contact-header" data-aos="fade-down">
+            <h1><i>Kontak <span>Kami</span></i></h1>
+            <h6>Kami selalu ada di sini untuk Anda</h6>
+        </div>
+        <div class="contact-content">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15824.825477731252!2d112.48430824400789!3d-7.442404881096185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e780c274b60c2f7%3A0x72758954e431022b!2sGampingrowo%2C%20Kec.%20Tarik%2C%20Kabupaten%20Sidoarjo%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1702552979163!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps" data-aos="zoom-in" data-aos-duration="1000"></iframe>
+            <div class="contact-group">
+            <div class="contact-box" data-aos="zoom-in" data-aos-duration="1000">
+                <a href="mailto:alfajjar123@gmail.com">
+                    <div>
+                        <h2>Kirim Kritik & <span>Saran kapan saja</span>.</h2>
+                    </div>
+    
+                    <div>
+                        <p>kopisejahtera@gmail.com</p>
+                    </div>
+                </a>
+            </div>
+            <div class="contact-box" data-aos="zoom-in" data-aos-duration="1000">
+                <a href="#">
+                    <div>
+                        <h2>
+                            Hubungi kami <span>kapanpun</span>.
+                        </h2>
+                    </div>
+    
+                    <div>
+                        <p>0123456789</p>
+                    </div>
+                </a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Finish -->
+
+    <!-- Footer Start -->
+
+    <section class="footer line animate__animated animate__fadeInUp" id="footer">
+        <footer class="footer-content">
+            <div class="img-footer">
+                <img src="./img/footer.jpg" alt="footer">
+            </div>
+            <div class="footer-box">
+                <div class="sosial">
+                    <a href=""><i data-feather="instagram"></i></a>
+                    <a href=""><i data-feather="twitter"></i></a>
+                    <a href=""><i data-feather="facebook"></i></a>
+                </div>
+
+                <div class="nav-link">
+                    <a href="#home">Home</a>
+                    <a href="#blog">About</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#galery">Galery</a>
+                    <a href="#contact">Contact</a>
+                    <a href="/menu/">orderNow</a>
+                </div>
+                
+                <div class="credits">
+                    <p>hak cipta <span>JanjiKembali.</span> | © 2023.</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!-- Footer Finish -->
+
+    <!-- Script Js default -->
+    <script src="script.js"></script>
+
+    <!-- Script Animasi -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Feather Icon -->
+
+    <script>
+        feather.replace();
+    </script>
+
+</body>
+</html>
