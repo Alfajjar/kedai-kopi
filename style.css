@@ -301,6 +301,10 @@ body {
         align-items: center;
         margin: 20% 8%;
     }
+
+    .blog .blog-content .blog-header p{
+        margin-top: 50%;
+    }
     
     .blog-content .blog-body .blog-card .card-item {
         text-align: center;
