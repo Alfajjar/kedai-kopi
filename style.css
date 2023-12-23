@@ -245,7 +245,7 @@ body {
 @media only screen and (min-width : 769px ) {
     .content {
         position: absolute;
-        top: 53%;
+        top: 70%;
         left: 35%;
         transform: translate(-50%, -50%);
         text-align: start;
@@ -262,6 +262,27 @@ body {
         font-size: 50px;
     }
     
+}
+
+@media only screen and (min-width: 815px) {
+    .content {
+        position: absolute;
+        top: 53%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        text-align: start;
+        color: var(--font-body);
+        z-index: 1;
+    }
+    
+    .content h3 {
+        font-size: 24px;
+        margin: 15px 0px;
+    }
+    
+    .content h1 {
+        font-size: 50px;
+    }
 }
 
 /* Content finish */
@@ -475,7 +496,7 @@ body {
         align-items: center;
         justify-content: center;
         text-align: center;
-        width: 25% ;
+        width: 35% ;
         margin: 30px;
         border: 1px solid var(--black);
         box-sizing: border-box;
